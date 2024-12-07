@@ -11,6 +11,7 @@
       color: #333;
   }
 
+
   /* Later Messages Container */
   .later-messages-container {
       display: flex;
@@ -275,8 +276,19 @@
       border: 1px solid #ddd;
       margin-bottom: 0.625rem;
       background-color: #fff;
+      color: black;
       cursor: pointer;
   }
+
+
+    .dropdown option {
+        color: #000; /* Ensure options text is black */
+    }
+
+    .dropdown:disabled,
+    .dropdown:placeholder-shown {
+        color: #777; /* Adjust this for the 'greyed-out' look if needed */
+    }
 
   input[type="checkbox"] {
       margin-right: 0.625rem;
